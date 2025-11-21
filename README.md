@@ -55,6 +55,8 @@ Componentização pensada para reaproveitamento e organização
 
 A aplicação pode ser acessada por este link:
 
+https://portfoliomariaeduardabalieiro.netlify.app/
+
 (adicione o link após realizar o deploy)
 
  Executando o Projeto Localmente
