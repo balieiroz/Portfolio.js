@@ -1,60 +1,79 @@
-# 🌐 Meu Portfólio em Vue.js
+🌐 Portfólio Desenvolvido com Vue.js
 
-Este é o meu portfólio pessoal desenvolvido como uma Single Page Application (SPA) usando **Vue.js + Vite**.  
-Aqui você encontra meus projetos, minhas habilidades e uma página dedicada com detalhes de cada trabalho.
+Este repositório contém meu portfólio pessoal, criado como uma aplicação Single Page Application (SPA) utilizando Vue.js em conjunto com Vite.
+O projeto reúne informações sobre mim, meus principais trabalhos e uma área dedicada para visualizar detalhes de cada projeto desenvolvido.
 
-## 🚀 Tecnologias Utilizadas
-- Vue.js 3 (Composition API)
-- Vite
-- Vue Router
-- GitHub API (para carregar meus repositórios automaticamente)
-- HTML5 e CSS3 (com `<style scoped>`)
-- Deploy via Netlify / Vercel
+🚀 Tecnologias e Ferramentas
 
-## 📁 Estrutura do Projeto
+Vue.js 3 (Composition API)
+
+Vite para construção e ambiente de desenvolvimento
+
+Vue Router para navegação entre páginas
+
+GitHub API, responsável por listar meus repositórios públicos automaticamente
+
+HTML5 + CSS3, com estilos encapsulados usando <style scoped>
+
+Netlify ou Vercel para publicação online
+
+📁 Organização do Projeto
+
+A estrutura do projeto foi montada de forma modular para facilitar manutenção e escalabilidade:
 
 src/
-├── components/
-│ ├── Header.vue
-│ ├── Footer.vue
-│ ├── ProjectCard.vue
-│ └── ProjectsList.vue
-├── views/
-│ ├── HomeView.vue
-│ ├── SobreView.vue
-│ └── ProjetoDetalhesView.vue
-├── router/
-│ └── index.js
-├── data/
-│ └── projects.js
-└── App.vue
+ ├── components/
+ │    ├── Header.vue
+ │    ├── Footer.vue
+ │    ├── ProjectCard.vue
+ │    └── ProjectsList.vue
+ ├── views/
+ │    ├── HomeView.vue
+ │    ├── SobreView.vue
+ │    └── ProjetoDetalhesView.vue
+ ├── router/
+ │    └── index.js
+ ├── data/
+ │    └── projects.js
+ └── App.vue
 
-markdown
-Copiar código
+🧩 Principais Recursos
 
-## 🧩 Funcionalidades
-- Navegação sem recarregar a página usando Vue Router
-- Listagem de projetos manual + projetos da API do GitHub
-- Página de detalhes para cada projeto (`/projeto/:id`)
-- Layout 100% responsivo
-- Animações suaves entre rotas
-- Componentes reutilizáveis e organizados
+Navegação fluida entre páginas, sem recarregamento
 
-## 🌎 Deploy
-Você pode acessar o portfólio online aqui:
+Combinação de projetos cadastrados manualmente com os projetos retornados pela API do GitHub
 
+Página individual para cada projeto (/projeto/:id)
 
-## 🛠️ Como Rodar o Projeto Localmente
+Layout responsivo, adaptado para diferentes tipos de tela
 
-```bash
-# Instalar dependências
+Transições visuais suaves nas mudanças de rota
+
+Componentização pensada para reaproveitamento e organização
+
+ Disponível Online
+
+A aplicação pode ser acessada por este link:
+
+(adicione o link após realizar o deploy)
+
+ Executando o Projeto Localmente
+
+Instale as dependências:
+
 npm install
 
-# Rodar em modo desenvolvimento
+
+Inicie o ambiente de desenvolvimento:
+
 npm run dev
 
-# Gerar versão de produção
+
+Gere o build para produção:
+
 npm run build
 
-# Visualizar build
+
+Visualize o build gerado:
+
 npm run preview
